@@ -13,6 +13,7 @@
 		E21B9ADC19EC67ED0021BBA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21B9ADB19EC67ED0021BBA5 /* Images.xcassets */; };
 		E21B9ADF19EC67ED0021BBA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21B9ADD19EC67ED0021BBA5 /* LaunchScreen.xib */; };
 		E21B9AEB19EC67ED0021BBA5 /* revealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B9AEA19EC67ED0021BBA5 /* revealTests.swift */; };
+		E24BD73B19EC6ACD00FA0F22 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BD73A19EC6ACD00FA0F22 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		E21B9AE419EC67ED0021BBA5 /* revealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = revealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21B9AE919EC67ED0021BBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21B9AEA19EC67ED0021BBA5 /* revealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revealTests.swift; sourceTree = "<group>"; };
+		E24BD73A19EC6ACD00FA0F22 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E24BD73C19EC6B1C00FA0F22 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				E21B9AD819EC67ED0021BBA5 /* Main.storyboard */,
 				E21B9ADB19EC67ED0021BBA5 /* Images.xcassets */,
 				E21B9ADD19EC67ED0021BBA5 /* LaunchScreen.xib */,
+				E24BD73C19EC6B1C00FA0F22 /* SWRevealViewController.h */,
+				E24BD73A19EC6ACD00FA0F22 /* SWRevealViewController.m */,
 				E21B9AD219EC67ED0021BBA5 /* Supporting Files */,
 			);
 			path = reveal;
@@ -214,6 +219,7 @@
 			files = (
 				E21B9AD719EC67ED0021BBA5 /* ViewController.swift in Sources */,
 				E21B9AD519EC67ED0021BBA5 /* AppDelegate.swift in Sources */,
+				E24BD73B19EC6ACD00FA0F22 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +342,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = reveal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = reveal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +414,7 @@
 				E21B9AF019EC67ED0021BBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E21B9AF119EC67ED0021BBA5 /* Build configuration list for PBXNativeTarget "revealTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +423,7 @@
 				E21B9AF319EC67ED0021BBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

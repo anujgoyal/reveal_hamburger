@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F0A217D-F7F9-43C3-B98B-96173D1D2255</string>
+	<key>IDESourceControlProjectName</key>
+	<string>reveal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00C2FC3C005608A5450034C0DDE61BB61ACCB60B</key>
+		<string>https://github.com/anujgoyal/reveal_hamburger</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>reveal.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00C2FC3C005608A5450034C0DDE61BB61ACCB60B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anujgoyal/reveal_hamburger</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>00C2FC3C005608A5450034C0DDE61BB61ACCB60B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00C2FC3C005608A5450034C0DDE61BB61ACCB60B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>reveal_hamburger</string>
+		</dict>
+	</array>
+</dict>
+</plist>
